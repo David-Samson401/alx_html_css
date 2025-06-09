@@ -4,7 +4,7 @@ This project is part of the **ALX Front-End curriculum**, focusing on implementi
 
 ## 🌐 Live Demo
 
-[Check out the page](#) _(Add your GitHub Pages or live link here once deployed)_
+[Check out the page](#) 
 
 ## 📁 Project Directory
 
@@ -50,7 +50,7 @@ This project is part of the **ALX Front-End curriculum**, focusing on implementi
 
 ## 📷 Screenshots
 
-_Add screenshots here to show key sections of your layout (hero section, cards, footer, etc.)_
+
 
 ---
 
