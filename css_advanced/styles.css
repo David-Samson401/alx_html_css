@@ -173,41 +173,54 @@ nav {
 }
 .section3 {
   width: 100%;
-  background-color: grey;
+  background-color: white;
   height: 600px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+
+  gap: 1em;
 }
 .section3 h4 {
-  text-align: center;
-  color: white;
-  padding: 20px;
-  font-size: 1.5em;
-  font-weight: 100;
+  display: block;
+  padding: 15px;
+  font-size: 1.5em; /* Adjust font size for the section header */
+  margin: 0;
 }
-.section3 h4 span {
+.section3 h3 {
+  padding-left: 10px;
+}
+.section3 p {
+  padding: 0;
+  text-indent: 0;
+  width: 270px;
+  color: rgb(138, 135, 135);
+  
+}
+.popular {
   color: #bb6dce;
 }
-
-.dif {
+.div-wrapper {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
+  gap: 1em; 
   align-items: center;
-  height: 300px;
-  width: 700px;
-  color: white;
-  font-size: 1.2em;
-  padding: 0;
-  background-color: aqua;
+  padding-left: 62px;
 }
-.dif div {
-  width: 200px;
-  height: 250px;
-  padding: 0;
-  display: block;
-  background-color: green;
-  margin: 2px;
+
+.card {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: flex-start; /* Align left, optional */
+  padding: 1rem;
+  background-color: white; /* or your desired background */
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional */
+  height: 450px;
 }
-.dif-img1 {
-  margin: 0;
-  width: 5px;
-  object-fit: contain;
+.card > div {
+  display: flex;
+  align-items: center; /* For things like image + name in a row */
+  gap: 10px;
 }
