@@ -224,3 +224,52 @@ nav {
   align-items: center; /* For things like image + name in a row */
   gap: 10px;
 }
+
+.section4 {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(14, 5, 41);
+}
+
+.section4 h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white; 
+}
+.section4 h2 span {
+  color: #bb6dce; 
+}
+.membership-features {
+  display: flex;
+  justify-content: center; /* center the group horizontally */
+  gap: 1.5rem;
+  flex-wrap: nowrap; /* force items to stay in a row */
+  margin-bottom: 2rem;
+  overflow-x: auto; /* optional: allow scroll if screen is small */
+}
+
+.membership-features > div {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  min-width: 200px; /* ensures fixed size */
+  flex-shrink: 0; /* prevent shrinking */
+}
+
+.membership-features img {
+  width: 50px;
+  height: 50px;
+}
+
+.section4 button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #bb6dce;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
