@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+  height: 3000px;
+}
+.main {
+  background-image: url("Object.png");
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 900px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  /* Center the header content */
+  padding: 20px;
+
+  font-size: 10px;
+
+  margin: 0 auto; /* Center the header */
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between; /* Pushes logo and nav links to opposite ends */
+  align-items: center; /* Vertically aligns them */
+  max-width: 1200px; /* Limit width for larger screens, adjust as needed */
+  margin: 0 auto; /* Center the nav within the header */
+  padding: 0 20px; /* Add some horizontal padding for smaller screens */
+}
+nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav items */
+  align-items: center; /* Vertically center the items */
+  width: 100%; /* Full width of the header */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo image and text */
+}
+
+.logo-container img {
+  height: 30px; /* Adjust logo size */
+  width: auto;
+  filter: brightness(0) invert(1); /* Makes a colored logo white if it's not already */
+}
+
+.logo-container .logo-text {
+  font-size: 1.2em; /* Adjust text size */
+  font-weight: bold;
+  color: white; /* Make the text white */
+  white-space: nowrap;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px; /* Space between nav items */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: white; /* Make nav links white */
+  font-size: 1em; /* Adjust font size */
+  text-transform: uppercase; /* Make text uppercase */
+  font-weight: bold; /* Make text bold */
+}
+
+.header nav ul li a:hover {
+  opacity: 0.8; /* Subtle hover effect */
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center; /* Center the hero text */
+  padding: 90px;
+  color: white; /* Make the hero text white */
+}
+.schooled {
+  font-size: 5em; /* Adjust font size */
+  font-weight: bold; /* Make the hero text bold */
+  margin: 0; /* Remove default margin */
+}
+.hero-text {
+  padding: 6px;
+  font-weight: bold;
+  font-size: 0.7em; /* Adjust font size for the hero text */
+  width: 100%; /* Full width for the hero text */
+  word-spacing: 40px;
+  margin-left: -10px;
+}
+.register-button {
+  display: inline-block;
+  margin: 30px 0; /* Add margin for spacing */
+  padding: 10px 20px; /* Adjust padding for the button */
+  background-color: #bb6dce; /* Button background color */
+  color: white; /* Button text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 20px; /* Rounded corners for the button */
+  font-weight: bold; /* Make button text bold */
+}
+.instructors-header {
+  text-align: center; /* Center the instructor header */
+  margin: 50px 0; /* Add margin for spacing */
+  color: white; /* Make the instructor header text white */
+}
+.instructors-header {
+  font-size: 1em; /* Adjust font size for the header */
+  margin: 0; /* Remove default margin */
+}
+.learn {
+  color: #bb6dce;
+}
+.instructors-container {
+  display: flex;
+  padding: 0;
+  margin: 37px 0;
+  flex-direction: row; /* Stack instructors vertically */
+  width: 100%;
+  /* Light background color for the instructors section */
+}
+.instructors {
+  display: flex;
+  flex: 1; /* Each instructor takes equal space */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center the instructor content */
+  color: white; /* Make instructor text white */
+
+  height: 400px;
+  margin: 0; /* Remove default margin */
+  /* Background color for each instructor */
+}
+.instructors div {
+  width: 100%;
+}
+.instructor-cells {
+  width: fit-content;
+  height: 300px;
+  margin: 5px;
+  padding: 0;
+  text-wrap: break-word;
+
+  align-items: center; /* Center the content vertically */
+}
+.Bruce {
+  border-radius: 50%;
+}
+.section2 {
+  background-color: #bb6dce;
+  width: 100%;
+  height: 392px;
+  margin: 0;
+  padding: 0;
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 40px 40px 40px;
+  color: white;
+}
+.testimonial-author {
+  padding-left: 40px;
+}
+.section3 {
+  width: 100%;
+  background-color: grey;
+  height: 600px;
+}
+.section3 h4 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.section3 h4 span {
+  color: #bb6dce;
+}
+
+.dif {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  height: 300px;
+  width: 700px;
+  color: white;
+  font-size: 1.2em;
+  padding: 0;
+  background-color: aqua;
+}
+.dif div {
+  width: 200px;
+  height: 250px;
+  padding: 0;
+  display: block;
+  background-color: green;
+  margin: 2px;
+}
+.dif-img1 {
+  margin: 0;
+  width: 5px;
+  object-fit: contain;
+}
